@@ -13,7 +13,6 @@
 		25BAEF751CDC446E00D43A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BAEF721CDC446E00D43A42 /* Main.storyboard */; };
 		25BAEF781CDC448200D43A42 /* H264HwEncoderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF771CDC448200D43A42 /* H264HwEncoderImpl.m */; };
 		25BAEF7F1CDC449300D43A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF7A1CDC449300D43A42 /* AppDelegate.m */; };
-		25BAEF801CDC449300D43A42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25BAEF7B1CDC449300D43A42 /* Info.plist */; };
 		25BAEF811CDC449300D43A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF7C1CDC449300D43A42 /* main.m */; };
 		25BAEF821CDC449300D43A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF7E1CDC449300D43A42 /* ViewController.m */; };
 /* End PBXBuildFile section */
@@ -141,7 +140,7 @@
 				TargetAttributes = {
 					2575C6101CCE03EF00160B73 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = N46VGUZVN4;
+						DevelopmentTeam = Z6436LX9A5;
 					};
 				};
 			};
@@ -170,7 +169,6 @@
 			files = (
 				25BAEF741CDC446E00D43A42 /* LaunchScreen.storyboard in Resources */,
 				25BAEF751CDC446E00D43A42 /* Main.storyboard in Resources */,
-				25BAEF801CDC449300D43A42 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N46VGUZVN4;
+				DEVELOPMENT_TEAM = Z6436LX9A5;
 				INFOPLIST_FILE = VTDemoOniPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -312,7 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N46VGUZVN4;
+				DEVELOPMENT_TEAM = Z6436LX9A5;
 				INFOPLIST_FILE = VTDemoOniPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

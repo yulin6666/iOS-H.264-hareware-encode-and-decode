@@ -164,13 +164,13 @@ CMSampleBufferRef sampleBuffer )
 {
      dispatch_sync(aQueue, ^{
         
-          frameCount++;
+            frameCount++;
             // Get the CV Image buffer
             CVImageBufferRef imageBuffer = (CVImageBufferRef)CMSampleBufferGetImageBuffer(sampleBuffer);
 //            CVPixelBufferRef pixelBuffer = (CVPixelBufferRef)CMSampleBufferGetImageBuffer(sampleBuffer);
          
             // Create properties
-            CMTime presentationTimeStamp = CMTimeMake(frameCount, 1); // 这个值越大画面越模糊
+            CMTime presentationTimeStamp = CMTimeMake(frameCount, 1000); // 这个值越大画面越模糊
 //            CMTime duration = CMTimeMake(1, DURATION);
             VTEncodeInfoFlags flags;
 
