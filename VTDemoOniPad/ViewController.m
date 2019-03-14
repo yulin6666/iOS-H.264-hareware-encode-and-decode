@@ -332,7 +332,7 @@ static void didDecompress( void *decompressionOutputRefCon, void *sourceFrameRef
     //fd = open([h264FileSavePath UTF8String], O_RDWR);
     fileHandle = [NSFileHandle fileHandleForWritingAtPath:h264FileSavePath];
     
-    [h264Encoder initEncode:1280 height:720];
+    [h264Encoder initEncode:720 height:1280];
     h264Encoder.delegate = self;
     
     
